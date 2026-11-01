@@ -244,3 +244,32 @@ line-height:1.05;
 }
 
 }
+
+form{
+display:flex;
+flex-direction:column;
+gap:16px;
+max-width:600px;
+margin:auto;
+margin-top:40px;
+}
+
+input,
+textarea{
+background:#0a0a0a;
+border:1px solid #222;
+color:white;
+padding:18px;
+border-radius:14px;
+font-size:16px;
+}
+
+textarea{
+min-height:180px;
+resize:none;
+}
+
+button{
+border:none;
+cursor:pointer;
+}

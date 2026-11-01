@@ -1,4 +1,50 @@
-<form action="https://formsubmit.co/rrealitix@gmail.com" method="POST">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Start Project | Realitix</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="glass">
+
+<div class="logo">
+REALITIX
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="portfolio.html">Portfolio</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<p class="small-text">
+START PROJECT
+</p>
+
+<h1>
+Let's Build<br>
+Something Great
+</h1>
+
+<p class="hero-description">
+Tell us about your website and we'll get in touch.
+</p>
+
+<form
+action="https://formsubmit.co/rrealitix@gmail.com"
+method="POST">
 
 <input
 type="text"
@@ -17,39 +63,25 @@ type="text"
 name="business"
 placeholder="Business Name">
 
-<select name="website-type" required>
-<option value="">Website Type</option>
+<select name="type">
+
+<option>Website Type</option>
+<option>Business Website</option>
 <option>Salon Website</option>
 <option>Restaurant Website</option>
 <option>Gym Website</option>
-<option>Real Estate Website</option>
 <option>Portfolio Website</option>
-<option>Business Website</option>
-<option>Custom Website</option>
-</select>
 
-<select name="style" required>
-<option value="">Design Style</option>
-<option>Minimal</option>
-<option>Modern</option>
-<option>Luxury</option>
-<option>Dark</option>
-<option>Nothing OS Style</option>
-</select>
-
-<select name="budget">
-<option value="">Budget</option>
-<option>₹999 - ₹2499</option>
-<option>₹2500 - ₹4999</option>
-<option>₹5000+</option>
 </select>
 
 <textarea
 name="requirements"
-placeholder="Describe your project..."
-required></textarea>
+placeholder="Tell us about your project">
+</textarea>
 
-<button type="submit" class="primary-btn">
+<button
+type="submit"
+class="primary-btn">
 Request Project
 </button>
 
@@ -58,20 +90,6 @@ Request Project
 </div>
 
 </section>
-
-<script>
-
-document.body.style.opacity = "0";
-
-window.onload = () => {
-
-document.body.style.transition = "opacity .6s ease";
-
-document.body.style.opacity = "1";
-
-};
-
-</script>
 
 </body>
 </html>

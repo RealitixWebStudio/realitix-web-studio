@@ -1,61 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact - Realitix</title>
-
-<link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-
-<header class="glass">
-
-<div class="logo">
-REALITIX
-</div>
-
-<nav>
-<a href="index.html">Home</a>
-</nav>
-
-</header>
-
-<section class="hero">
-
-<div class="hero-content">
-
-<p class="small-text">
-START PROJECT
-</p>
-
-<h1>
-Let's Build<br>
-Something Great.
-</h1>
-
 <form action="https://formsubmit.co/rrealitix@gmail.com" method="POST">
 
-<input type="text" name="name" placeholder="Your Name" required>
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required>
 
-<input type="email" name="email" placeholder="Your Email" required>
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required>
+
+<input
+type="text"
+name="business"
+placeholder="Business Name">
+
+<select name="website-type" required>
+<option value="">Website Type</option>
+<option>Salon Website</option>
+<option>Restaurant Website</option>
+<option>Gym Website</option>
+<option>Real Estate Website</option>
+<option>Portfolio Website</option>
+<option>Business Website</option>
+<option>Custom Website</option>
+</select>
+
+<select name="style" required>
+<option value="">Design Style</option>
+<option>Minimal</option>
+<option>Modern</option>
+<option>Luxury</option>
+<option>Dark</option>
+<option>Nothing OS Style</option>
+</select>
+
+<select name="budget">
+<option value="">Budget</option>
+<option>₹999 - ₹2499</option>
+<option>₹2500 - ₹4999</option>
+<option>₹5000+</option>
+</select>
 
 <textarea
-name="message"
-placeholder="Tell me about your website project"
-required>
-</textarea>
+name="requirements"
+placeholder="Describe your project..."
+required></textarea>
 
 <button type="submit" class="primary-btn">
-Send Request
+Request Project
 </button>
 
 </form>
-
-</div>
-
-</section>
-
-</body>
-</html>

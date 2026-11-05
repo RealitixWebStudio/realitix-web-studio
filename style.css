@@ -173,8 +173,8 @@ gap:25px;
 }
 
 .card{
-
-padding:35px;
+padding:40px;
+min-height:280px;
 
 border-radius:24px;
 
@@ -196,6 +196,7 @@ font-size:1.3rem;
 .card p{
 color:#888;
 line-height:1.8;
+margin-bottom:25px;
 }
 
 /* FOOTER */

@@ -413,3 +413,31 @@ button{
 border:none;
 cursor:pointer;
 }
+
+.secondary-btn{
+display:inline-block;
+
+padding:14px 28px;
+
+border:1px solid rgba(255,255,255,.1);
+
+border-radius:14px;
+
+text-decoration:none;
+
+color:white;
+
+margin-top:20px;
+
+transition:.4s;
+}
+
+.secondary-btn:hover{
+
+background:white;
+
+color:black;
+
+transform:translateY(-2px);
+
+}

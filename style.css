@@ -123,49 +123,22 @@ gap:16px;
 flex-wrap:wrap;
 }
 
-.primary-btn{
 
-padding:18px 38px;
-
-background:white;
-
-color:black;
-
-font-weight:700;
-
-text-decoration:none;
-
-border-radius:18px;
-
-transition:
-transform .4s cubic-bezier(.22,1,.36,1),
-box-shadow .4s;
-
-box-shadow:
-0 10px 30px rgba(255,255,255,.08);
-
-}
-
-.primary-btn:hover{
-
-transform:
-translateY(-4px)
-scale(1.02);
-
-}
-
+.primary-btn,
 .secondary-btn{
+
 padding:16px 34px;
-
-border:1px solid #333;
-
-color:white;
-
-text-decoration:none;
 
 border-radius:14px;
 
-transition:.4s;
+font-weight:600;
+
+font-size:16px;
+
+min-width:180px;
+
+text-align:center;
+
 }
 
 .secondary-btn:hover{

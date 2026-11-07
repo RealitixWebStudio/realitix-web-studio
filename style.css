@@ -438,6 +438,33 @@ transition:.4s;
 
 background:white;
 
+  .mini-services{
+
+display:flex;
+
+justify-content:center;
+
+gap:15px;
+
+margin-top:50px;
+
+flex-wrap:wrap;
+
+}
+
+.mini-services span{
+
+padding:12px 20px;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:999px;
+
+color:#777;
+
+background:rgba(255,255,255,.02);
+
+}
 color:black;
 
 transform:translateY(-2px);

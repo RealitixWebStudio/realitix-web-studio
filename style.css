@@ -124,25 +124,36 @@ flex-wrap:wrap;
 }
 
 
-.primary-btn,
-.secondary-btn{
+.primary-btn{
 
-padding:16px 34px;
+padding:14px 28px;
+
+background:#111;
+
+color:white;
+
+border:1px solid rgba(255,255,255,.12);
+
+text-decoration:none;
 
 border-radius:14px;
 
 font-weight:600;
 
-font-size:16px;
-
-min-width:180px;
+min-width:160px;
 
 text-align:center;
 
+transition:.4s;
+
 }
 
-.secondary-btn:hover{
-background:#111;
+.primary-btn:hover{
+
+background:#1a1a1a;
+
+transform:translateY(-2px);
+
 }
 
 /* CARDS */
